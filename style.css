@@ -11,6 +11,7 @@
     --spacing: 0.75rem;
     --spacing-2: 1.5rem;
     --mb-1: 1rem;
+    --mb-2: 1.25rem;
     --padding: 1.5rem;
 }
 
@@ -118,7 +119,7 @@ button:hover, button:focus {
     display: flex;
     flex-direction: column;
     gap: var(--spacing-2);
-    margin-bottom: 1.25rem;
+    margin-bottom: var(--mb-2);
 }
 
 .card__description-price {
@@ -132,6 +133,7 @@ button:hover, button:focus {
         --spacing: 1.25rem;
         --spacing-2: 1.8125rem;
         --mb-1: 1.5rem;
+        --mb-2: 1.87rem;
         --padding: 2rem;
     }
 
